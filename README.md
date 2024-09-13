@@ -7,7 +7,7 @@ BK Trees are an efficient data structure for determining the most similar string
 [Wikipedia link](https://en.wikipedia.org/wiki/BK-tree)
 
 # Runtime
-- Search time is (VERY) approximately `O(Log(n))`, in practice somewhere between logarithmic and linear (see [analysis](https://github.com/benhoyt/pybktree/issues/5)
+- Search time is (VERY) approximately `O(Log(n))`, in practice somewhere between logarithmic and linear (see [analysis](https://github.com/benhoyt/pybktree/issues/5))
 - Build time is longer, on the order of `O(n)`, so this is a data structure optimized for frequent reads and infrequent builds.
 
 
